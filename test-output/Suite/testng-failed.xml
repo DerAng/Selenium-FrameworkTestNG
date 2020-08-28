@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <parameter name="BrowserType" value="Internet Explorer"/>
+  <parameter name="URL" value="https://www.google.com/"/>
+  <test name="Test on  IE(failed)" parallel="none">
+    <parameter name="BrowserType" value="Internet Explorer"/>
+    <classes>
+      <class name="com.qualitystream.testng.CrossBrowsertesting">
+        <methods>
+          <include name="afterClass"/>
+          <include name="afterClass"/>
+          <include name="googleSearch"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.qualitystream.testng.CrossBrowsertesting -->
+    </classes>
+  </test> <!-- Test on  IE(failed) -->
+</suite> <!-- Failed suite [Suite] -->

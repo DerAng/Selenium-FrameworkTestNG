@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteSearch">
+
+
+  <test  name="Search Blouses">
+    <classes>
+      <class name="com.reportsExample.qs.SearchBlouses"/>
+      
+    </classes>
+  </test> 
+  
+  
+  <test  name="Search Summer Dresses">
+    <classes>
+      
+      <class name="com.reportsExample.qs.SearchChiffonDresses"/>
+     
+    </classes>
+  </test> 
+  
+  
+  <test  name="Search chiffon Dresses">
+    <classes>
+    
+      <class name="com.reportsExample.qs.SearchSummerDresses"/>
+    </classes>
+  </test> 
+  
+  
+</suite> 

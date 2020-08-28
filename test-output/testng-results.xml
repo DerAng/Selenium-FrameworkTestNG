@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11649" started-at="2020-08-28T03:32:20Z" finished-at="2020-08-28T03:32:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11649" started-at="2020-08-28T03:32:20Z" finished-at="2020-08-28T03:32:31Z">
+      <class name="com.qualitystream.testng.CrossBrowsertesting">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.qualitystream.testng.CrossBrowsertesting@20d3d15a]" name="beforeClass" is-config="true" duration-ms="8555" started-at="2020-08-27T22:32:20Z" finished-at="2020-08-27T22:32:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="googleSearch()[pri:0, instance:com.qualitystream.testng.CrossBrowsertesting@20d3d15a]" name="googleSearch" duration-ms="2381" started-at="2020-08-27T22:32:28Z" finished-at="2020-08-27T22:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearch -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.qualitystream.testng.CrossBrowsertesting@20d3d15a]" name="afterClass" is-config="true" duration-ms="684" started-at="2020-08-27T22:32:31Z" finished-at="2020-08-27T22:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.qualitystream.testng.CrossBrowsertesting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
